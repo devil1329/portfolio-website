@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+# Vishnu Kumar Singh - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, professional portfolio website built with React to showcase Full Stack Development expertise and experience.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+### Design & UX
+- **Modern Dark Theme**: Professional blue and cyan gradient design
+- **Responsive Layout**: Fully responsive across mobile, tablet, and desktop devices
+- **Smooth Animations**: Fade-in effects, slide-up transitions, and floating animations
+- **Interactive Components**: Hover effects, expandable skill categories, and smooth scrolling navigation
+- **Professional Typography**: Clean, readable font hierarchy with gradient text accents
 
-### `npm start`
+### Sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Navigation Bar**
+   - Fixed header with smooth scroll navigation
+   - Mobile-responsive hamburger menu
+   - Active section highlighting
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Hero Section**
+   - Eye-catching gradient background
+   - Call-to-action buttons (Download Resume, Get in Touch)
+   - Contact information badges with icons
+   - Animated scroll indicator
 
-### `npm test`
+3. **About Section**
+   - Professional profile overview
+   - Key highlights with check marks
+   - Two-column layout with profile area
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Work Experience**
+   - Timeline-style experience cards
+   - Achievement bullet points
+   - Career statistics (Years, Projects, Technologies)
 
-### `npm run build`
+5. **Skills**
+   - Organized by categories
+   - Expandable skill cards
+   - Core competencies section
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. **Education**
+   - Academic background with CGPA
+   - Certifications display
+   - Continuous learning section
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7. **Contact**
+   - Contact information (Email, Phone, LinkedIn)
+   - Functional contact form
+   - Direct mailto integration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+8. **Footer**
+   - Quick links and social media connections
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Frontend Framework**: React 18
+- **Styling**: Tailwind CSS 3
+- **Build Tool**: Create React App
+- **CSS Processing**: PostCSS with Autoprefixer
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
+```bash
+cd portfolio-website
+npm install
+```
 
-## Learn More
+### Running Locally
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The development server will start at `http://localhost:3000`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Building for Production
+```bash
+npm run build
+```
 
-### Code Splitting
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+src/
+├── components/
+│   ├── Navigation.jsx      # Navigation bar
+│   ├── Hero.jsx            # Hero section
+│   ├── About.jsx           # About section
+│   ├── Experience.jsx      # Work experience
+│   ├── Skills.jsx          # Skills
+│   ├── Education.jsx       # Education
+│   ├── Contact.jsx         # Contact form
+│   └── Footer.jsx          # Footer
+├── App.js                  # Main component
+├── data.js                 # Resume data
+└── index.css               # Global styles
+```
 
-### Analyzing the Bundle Size
+## 🎨 Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Update Resume Data
+Edit `src/data.js` to update personal information, experience, education, and skills.
 
-### Making a Progressive Web App
+### Modify Styles
+- **Colors**: Update `tailwind.config.js`
+- **Animations**: Customize in `App.css`
+- **Component Styles**: Edit component JSX files
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📱 Responsive Design
 
-### Advanced Configuration
+Fully responsive with mobile, tablet, and desktop support.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚀 Deployment
 
-### Deployment
+### Vercel (Recommended)
+```bash
+npm install -g vercel
+vercel
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Netlify
+Build the project and upload the `build/` folder.
 
-### `npm run build` fails to minify
+## 📄 Resume
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Place your resume PDF at: `public/Vishnu_Kumar_Singh_Resume.pdf`
+
+## 📝 Notes
+
+- Keep all resume data in `src/data.js`
+- Each section is modular and easy to customize
+- Animations are GPU-accelerated for smooth performance
+- All components are responsive out of the box
+
+---
+
+Built with ❤️ as a modern portfolio website.
